@@ -1,0 +1,21 @@
+Initial Log File Format:
+
+<timestamp><attacker ip><dest port><countrycode><attacked IP><src port>[<tcp payload> bzipped]
+
+ASCII delogger
+
+minimal grep for attacker IP, country code, number of lines
+
+Quick instructions:
+
+apt-get install libnids-dev libpcap-dev libgeoip-dev
+git clone https://code.google.com/p/ddos-log/
+cd ddos-log
+cd lzfx-0.1
+./configure
+make
+cd ..
+make
+
+You'll need to be root to run ddoslog.bin since it attaches to the ethernet card
+and switches it to promiscuous mode.

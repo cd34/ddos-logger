@@ -1,0 +1,6 @@
+* logview
+** search for hits by IP, country, time range
+** compression method parser
+* ddoslog 
+** specify eth port
+** rotate logfile at midnight
